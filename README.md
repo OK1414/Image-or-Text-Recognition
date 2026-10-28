@@ -62,13 +62,13 @@ python detector.py
 Run it with a specific image:
 
 ```powershell
-python detector.py "images/lena.jpg"
+python detector.py "images/test.jpg"
 ```
 
 Open the generated image:
 
 ```powershell
-Start-Process ".\output\detected_lena.jpg"
+Start-Process ".\output\detected_output.jpg"
 ```
 
 Use the exact output filename printed by your program if it differs.
